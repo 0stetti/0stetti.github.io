@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Link previews (WhatsApp, LinkedIn, Slack…). Crawlers don't run JS, so these stay in the static head. -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://0stetti.github.io/">
+<meta property="og:title" content="Elton Ostetti">
+<meta property="og:description" content="PhD Student, Butantan Institute / University of São Paulo. E-poster and contact.">
+<meta property="og:image" content="https://0stetti.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Elton Ostetti — PhD Student">
+<meta name="twitter:card" content="summary_large_image">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Elton Ostetti</title>
+<meta name="description" content="Elton Ostetti — PhD Student, Butantan Institute / University of São Paulo. E-poster and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Jost:wght@300;400&family=Noto+Sans+JP:wght@300&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<template id="__bundler_thumbnail" data-bg-color="#0a0a0a"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0a0a0a"/><text x="50" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#ffffff">EO</text></svg></template>
+<style>html{scroll-behavior:smooth;} body{margin:0;background:#fff;color:#000;-webkit-font-smoothing:antialiased;} a{color:inherit;text-decoration:none;} a:hover{color:inherit;opacity:.65;} ::selection{background:#000;color:#fff;}</style>
+</helmet>
+
+<section data-screen-label="Hero" style="position:relative; min-height:100svh; overflow:hidden; background:#fff; color:#000;">
+  <div aria-hidden="true" data-tex="hero" style="position:absolute; inset:0; overflow:hidden; pointer-events:none; user-select:none; font-family:'IBM Plex Mono',monospace; font-size:12px; line-height:13.62px; color:#000;">
+    <sc-for list="{{ heroTex }}" as="row" hint-placeholder-count="0"><div style="height:13.62px; white-space:pre;"><sc-for list="{{ row }}" as="c"><span style="color:rgba(0,0,0,{{ c.o }});">{{ c.ch }}</span></sc-for></div></sc-for>
+  </div>
+  <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ true }}">
+    <div style="position:absolute; inset:0; background:linear-gradient(to bottom, #fff 30%, rgba(255,255,255,0) 44%, rgba(255,255,255,0) 76%, #fff 84%); pointer-events:none;"></div>
+  </sc-if>
+  <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute; inset:0; background:linear-gradient(to right, #fff 24%, rgba(255,255,255,0) 58%); pointer-events:none;"></div>
+  </sc-if>
+  <div style="position:relative; min-height:100svh; box-sizing:border-box; padding:clamp(40px,9vh,96px) clamp(28px,8vw,128px); display:flex; flex-direction:column; justify-content:space-between; gap:48px;">
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <h1 style="margin:0; font-family:'Gloock',serif; font-weight:400; font-size:clamp(46px,7vw,92px); line-height:1; letter-spacing:.01em;">Elton Ostetti</h1>
+      <div lang="ja" style="font-family:'Noto Sans JP',sans-serif; font-weight:300; font-size:clamp(14px,1.3vw,17px); letter-spacing:.2em;">エルトン・オステッチ</div>
+      <div style="font-family:'Jost',sans-serif; font-weight:300; font-size:clamp(14px,1.3vw,17px); letter-spacing:.16em;">PhD Student</div>
+      <div style="display:flex; margin-top:22px;">
+        <a href="#poster" style="display:flex; align-items:center; gap:14px; min-height:44px; padding:0 22px; background:#000; color:#fff; font-family:'Jost',sans-serif; font-weight:400; font-size:13px; letter-spacing:.22em; text-transform:uppercase;" style-hover="opacity:.8; color:#fff;">View e-poster <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; font-family:'Jost',sans-serif; font-weight:300; font-size:clamp(13px,1.15vw,15px); letter-spacing:.12em; line-height:2;">
+      <div>Molecular Biology</div>
+      <div>Genomics</div>
+      <div>Bioinformatics</div>
+      <div>Genetic Engineering</div>
+      <div>Software Engineering</div>
+    </div>
+  </div>
+</section>
+
+<section id="poster" data-screen-label="E-poster" style="background:#fff; color:#000; padding:clamp(72px,12vh,140px) clamp(28px,8vw,128px); box-sizing:border-box;">
+  <div style="max-width:1200px; display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap:clamp(40px,6vw,96px); align-items:start;">
+    <div style="display:flex; flex-direction:column; gap:22px;">
+      <div style="font-family:'Jost',sans-serif; font-weight:400; font-size:12px; letter-spacing:.26em; text-transform:uppercase;">E-poster</div>
+      <h2 style="margin:0; font-family:'Gloock',serif; font-weight:400; font-size:clamp(28px,3.4vw,44px); line-height:1.12; text-wrap:pretty;">The e-poster will be available soon.</h2>
+      <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
+        <sc-if value="{{ posterOk }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ openViewer }}" style="min-height:44px; padding:0 22px; border:1px solid #000; background:#000; color:#fff; font-family:'Jost',sans-serif; font-weight:400; font-size:13px; letter-spacing:.22em; text-transform:uppercase; cursor:pointer;" style-hover="opacity:.8;">Full screen</button>
+        </sc-if>
+        <sc-if value="{{ pdfOk }}" hint-placeholder-val="{{ false }}">
+          <a href="{{ pdfUrl }}" target="_blank" rel="noopener" style="display:flex; align-items:center; min-height:44px; padding:0 22px; border:1px solid #000; font-family:'Jost',sans-serif; font-weight:400; font-size:13px; letter-spacing:.22em; text-transform:uppercase;">Download PDF</a>
+        </sc-if>
+        <sc-if value="{{ hasDoi }}" hint-placeholder-val="{{ false }}">
+          <a href="{{ doiUrl }}" target="_blank" rel="noopener" style="display:flex; align-items:center; min-height:44px; padding:0 22px; border:1px solid #000; font-family:'Jost',sans-serif; font-weight:400; font-size:13px; letter-spacing:.22em; text-transform:uppercase;">DOI</a>
+        </sc-if>
+      </div>
+    </div>
+    <div style="max-width:560px; width:100%;">
+      <sc-if value="{{ posterOk }}" hint-placeholder-val="{{ false }}">
+        <img src="poster.jpg" alt="E-poster" onClick="{{ openViewer }}" style="display:block; width:100%; height:auto; box-shadow:0 2px 24px rgba(0,0,0,.12); cursor:zoom-in;">
+      </sc-if>
+    </div>
+  </div>
+</section>
+
+<section id="about" data-screen-label="About" style="background:#fff; color:#000; padding:0 clamp(28px,8vw,128px) clamp(72px,12vh,140px); box-sizing:border-box;">
+  <div style="max-width:680px; display:flex; flex-direction:column; gap:22px;">
+    <div style="font-family:'Jost',sans-serif; font-weight:400; font-size:12px; letter-spacing:.26em; text-transform:uppercase;">About</div>
+    <h2 style="margin:0; font-family:'Gloock',serif; font-weight:400; font-size:clamp(28px,3.4vw,44px); line-height:1.12; text-wrap:pretty;">Keeping transgenes switched on.</h2>
+    <div style="display:flex; flex-direction:column; gap:18px; font-family:'Jost',sans-serif; font-weight:300; font-size:16px; letter-spacing:.04em; line-height:1.7; text-wrap:pretty;">
+      <p style="margin:0;">I'm a PhD student at the Biopharmaceuticals Laboratory of the Butantan Institute and the University of São Paulo. My research is on ubiquitous chromatin opening elements (UCOEs), short stretches of DNA that protect transgenes from epigenetic silencing. I search the genome for new ones, work out the sequence rules that make them work, and aim to design synthetic versions for producing therapeutic proteins.</p>
+      <p style="margin:0;">My work sits between the bench and the code: molecular biology and genetic engineering on one side, genomics, bioinformatics and AI agents on the other. I also have experience in software engineering, and outside the thesis I build my own tools for molecular biology and bioinformatics.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-screen-label="Contact" style="position:relative; overflow:hidden; background:#000; color:#fff;">
+  <div aria-hidden="true" data-tex="foot" style="position:absolute; inset:0; overflow:hidden; pointer-events:none; user-select:none; font-family:'IBM Plex Mono',monospace; font-size:12px; line-height:13.62px; color:#fff;">
+    <sc-for list="{{ footTex }}" as="row" hint-placeholder-count="0"><div style="height:13.62px; white-space:pre;"><sc-for list="{{ row }}" as="c"><span style="color:rgba(255,255,255,{{ c.o }});">{{ c.ch }}</span></sc-for></div></sc-for>
+  </div>
+  <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ true }}">
+    <div style="position:absolute; inset:0; background:linear-gradient(to bottom, #000 58%, rgba(0,0,0,0) 74%); pointer-events:none;"></div>
+  </sc-if>
+  <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute; inset:0; background:linear-gradient(to right, #000 24%, rgba(0,0,0,0) 54%); pointer-events:none;"></div>
+  </sc-if>
+  <div style="position:relative; box-sizing:border-box; min-height:{{ footH }}px; padding:clamp(72px,12vh,128px) clamp(28px,8vw,128px) clamp(160px,20vh,128px); display:flex; flex-direction:column; gap:40px;">
+    <div style="font-family:'Jost',sans-serif; font-weight:400; font-size:12px; letter-spacing:.26em; text-transform:uppercase;">Contact</div>
+    <a href="mailto:ostetti@usp.br" style="font-family:'Gloock',serif; font-weight:400; font-size:clamp(28px,3.4vw,44px); line-height:1; align-self:flex-start;">ostetti@usp.br</a>
+    <div style="display:flex; flex-wrap:wrap; column-gap:28px; margin:-12px 0; font-family:'Jost',sans-serif; font-weight:400; font-size:12px; letter-spacing:.22em; text-transform:uppercase;">
+      <a href="https://orcid.org/0000-0002-3448-2373" target="_blank" rel="noopener" style="display:flex; align-items:center; min-height:44px;">ORCID</a>
+      <a href="https://lattes.cnpq.br/8975244295757732" target="_blank" rel="noopener" style="display:flex; align-items:center; min-height:44px;">Lattes</a>
+      <a href="https://www.linkedin.com/in/elton-roger-ostetti-07879221a/" target="_blank" rel="noopener" style="display:flex; align-items:center; min-height:44px;">LinkedIn</a>
+    </div>
+    <div style="display:flex; flex-direction:column; font-family:'Jost',sans-serif; font-weight:300; font-size:clamp(14px,1.2vw,16px); letter-spacing:.14em; line-height:2;">
+      <div>Butantan Institute</div>
+      <div>University of São Paulo</div>
+      <div>São Paulo, Brazil</div>
+    </div>
+  </div>
+</section>
+
+<sc-if value="{{ viewerOpen }}" hint-placeholder-val="{{ false }}">
+  <div role="dialog" aria-label="E-poster" style="position:fixed; inset:0; z-index:50; background:#000; color:#fff; display:flex; flex-direction:column;">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:8px 8px 8px 20px; font-family:'Jost',sans-serif; font-weight:400; font-size:12px; letter-spacing:.22em; text-transform:uppercase;">
+      <div>{{ zoomHint }}</div>
+      <button onClick="{{ closeViewer }}" style="min-height:44px; padding:0 18px; border:1px solid #fff; background:transparent; color:#fff; font-family:'Jost',sans-serif; font-size:12px; letter-spacing:.22em; text-transform:uppercase; cursor:pointer;">Close</button>
+    </div>
+    <sc-if value="{{ fitMode }}" hint-placeholder-val="{{ true }}">
+      <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; padding:0 8px 8px;">
+        <img src="poster.jpg" alt="E-poster" onClick="{{ toggleZoom }}" style="max-width:100%; max-height:100%; object-fit:contain; cursor:zoom-in;">
+      </div>
+    </sc-if>
+    <sc-if value="{{ zoomed }}" hint-placeholder-val="{{ false }}">
+      <div style="flex:1; min-height:0; overflow:auto; -webkit-overflow-scrolling:touch;">
+        <img src="poster.jpg" alt="E-poster" onClick="{{ toggleZoom }}" style="display:block; width:{{ zoomW }}; max-width:none; cursor:zoom-out;">
+      </div>
+    </sc-if>
+  </div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+// Edit these when the poster is ready (files go next to index.html).
+// If you rename the image, also update the 3 <img src="poster.jpg"> in the template.
+const POSTER_IMAGE = 'poster.jpg';
+const POSTER_PDF = 'poster.pdf';
+const DOI = ''; // e.g. '10.5281/zenodo.1234567'
+const TURN_SECONDS = 10; // one full turn of the helices; no motion under prefers-reduced-motion
+
+class Component extends DCLogic {
+  state = { w: 1280, h: 800, posterMissing: false, viewer: false, zoomed: false };
+  componentDidMount() {
+    this._onResize = () => { clearTimeout(this._rt); this._rt = setTimeout(() => this.setState({ w: window.innerWidth, h: window.innerHeight }), 120); };
+    this._onKey = e => { if (e.key === 'Escape') this.closeViewer(); };
+    window.addEventListener('resize', this._onResize);
+    window.addEventListener('keydown', this._onKey);
+    this.setState({ w: window.innerWidth, h: window.innerHeight });
+    const img = new Image();
+    img.onload = () => this.setState({ posterReady: true });
+    img.onerror = () => this.setState({ posterMissing: true });
+    img.src = POSTER_IMAGE;
+    // Only show "Download PDF" once the file exists, so nobody lands on a 404.
+    fetch(POSTER_PDF, { method: 'HEAD' }).then(r => { if (r.ok) this.setState({ pdfReady: true }); }).catch(() => {});
+    this._vis = {};
+    this._io = window.IntersectionObserver ? new IntersectionObserver(es => es.forEach(e => { this._vis[e.target.dataset.tex] = e.isIntersecting; })) : null;
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) { this._dirty = true; this._last = 0; this._raf = requestAnimationFrame(this.tick); }
+  }
+  componentDidUpdate() { this._dirty = true; }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this._onResize);
+    window.removeEventListener('keydown', this._onKey);
+    cancelAnimationFrame(this._raf);
+    if (this._io) this._io.disconnect();
+  }
+  closeViewer = () => { this.setState({ viewer: false, zoomed: false }); document.body.style.overflow = ''; };
+  openViewer = () => { this.setState({ viewer: true, zoomed: false }); document.body.style.overflow = 'hidden'; };
+  // B-DNA proportions: pitch = 1.7 × diameter, 10.5 bp/turn, minor groove ≈ 40% of pitch.
+  // Turning the helix = shifting its phase; base pairs sit at fixed phases so they turn with the strands.
+  strands(g, phase) {
+    const out = [];
+    for (let c = 0; c < g.cols; c++) {
+      const p = g.k * (g.cols - c) + phase, u = p / g.bpStep;
+      out.push({
+        y1: g.cy + g.A * Math.sin(p), y2: g.cy + g.A * Math.sin(p + g.groove),
+        d1: 0.5 + 0.5 * Math.cos(p), d2: 0.5 + 0.5 * Math.cos(p + g.groove),
+        bp: Math.abs(u - Math.round(u)) < g.bpTol,
+      });
+    }
+    return out;
+  }
+  cell(g, s, r) {
+    let o = g.base;
+    if (Math.abs(r - s.y1) < 0.6) o = Math.max(o, g.base + g.strength * (0.3 + 0.7 * s.d1));
+    if (Math.abs(r - s.y2) < 0.6) o = Math.max(o, g.base + g.strength * (0.3 + 0.7 * s.d2));
+    if (s.bp && Math.abs(s.y1 - s.y2) > 1.6) {
+      const lo = Math.min(s.y1, s.y2), hi = Math.max(s.y1, s.y2);
+      if (r > lo + 0.6 && r < hi - 0.6) o = Math.max(o, g.base + g.strength * 0.3);
+    }
+    return +Math.min(1, o).toFixed(3);
+  }
+  tex(key, { cols, rows, cy, D, chars, base, strength, seed, reverse, ink }) {
+    this._tc = this._tc || {};
+    const k2 = [cols, rows, cy, D].join('|');
+    if (this._tc[key] && this._tc[key].k === k2) return this._tc[key].v;
+    const cw = 7.2, lh = 13.62, period = (1.7 * D) / cw;
+    const g = {
+      cols, cy, base, strength, reverse, ink, A: D / 2 / lh, k: (Math.PI * 2) / period, groove: Math.PI * 2 * 0.4,
+      bpStep: (Math.PI * 2) / 10.5, bpTol: 10.5 / period / 2,
+    };
+    // Rows the strands can reach while turning. Those keep one span per letter so tick() can relight them.
+    g.r0 = Math.max(0, Math.floor(cy - g.A - 1));
+    g.r1 = Math.min(rows - 1, Math.ceil(cy + g.A + 1));
+    const s0 = this.strands(g, 0);
+    let s = seed;
+    const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+    const out = [];
+    for (let r = 0; r < rows; r++) {
+      const row = [];
+      for (let c = 0; c < cols; c++) row.push({ ch: chars[Math.floor(rnd() * chars.length)], o: this.cell(g, s0[c], r) });
+      if (reverse) row.reverse();
+      if (r >= g.r0 && r <= g.r1) { out.push(row); continue; }
+      const seg = [];
+      for (const x of row) { const l = seg[seg.length - 1]; if (l && l.o === x.o) l.ch += x.ch; else seg.push({ ...x }); }
+      out.push(seg);
+    }
+    this._tc[key] = { k: k2, v: out, g };
+    return out;
+  }
+  // Animation runs outside React: the letters stay put and only their alpha changes,
+  // so a frame touches a few hundred spans instead of re-rendering the whole page.
+  tick = now => {
+    this._raf = requestAnimationFrame(this.tick);
+    if (this.state.viewer || now - this._last < 40) return; // ~25 fps is plenty for a letter grid
+    this._last = now;
+    if (this._dirty) this.bind();
+    const phase = (now / 1000) * (Math.PI * 2) / TURN_SECONDS;
+    for (const key in this._tc) if (this._vis[key] !== false) this.paint(this._tc[key], phase);
+  };
+  bind() {
+    this._dirty = false;
+    for (const key in this._tc) {
+      const t = this._tc[key], el = document.querySelector('[data-tex="' + key + '"]');
+      t.rows = [];
+      if (!el) continue;
+      if (this._io && t.el !== el) this._io.observe(el);
+      t.el = el;
+      for (let r = t.g.r0; r <= t.g.r1; r++) {
+        const spans = el.children[r] && el.children[r].children;
+        if (spans && spans.length === t.g.cols) t.rows.push({ r, spans, last: [] });
+      }
+    }
+  }
+  paint(t, phase) {
+    const g = t.g, s = this.strands(g, phase);
+    for (const row of t.rows) {
+      for (let i = 0; i < g.cols; i++) {
+        const o = this.cell(g, s[g.reverse ? g.cols - 1 - i : i], row.r);
+        if (row.last[i] !== o) { row.spans[i].style.color = 'rgba(' + g.ink + ',' + o + ')'; row.last[i] = o; }
+      }
+    }
+  }
+  renderVals() {
+    const { w, h, posterMissing, viewer, zoomed } = this.state;
+    const mobile = w < 760;
+    const cols = Math.ceil(w / 7.2) + 2;
+    const heroRows = Math.ceil(Math.max(h, 560) / 13.62) + 1;
+    const footH = mobile ? 640 : 560;
+    const footRows = Math.ceil(footH / 13.62) + 1;
+    const heroTex = this.tex('hero', {
+      cols, rows: heroRows, cy: heroRows * (mobile ? 0.6 : 0.5),
+      D: mobile ? 150 : Math.min(240, Math.max(170, h * 0.28)),
+      chars: 'ATCG', base: 0.08, strength: 0.32, seed: 7, ink: '0,0,0',
+    });
+    const footTex = this.tex('foot', {
+      cols, rows: footRows, cy: footRows * (mobile ? 0.83 : 0.5),
+      D: mobile ? 130 : 190,
+      chars: '01', base: 0.18, strength: 0.32, seed: 11, reverse: true, ink: '255,255,255',
+    });
+    return {
+      heroTex, footTex, footH,
+      isMobile: mobile, isDesktop: !mobile,
+      posterUrl: POSTER_IMAGE, pdfUrl: POSTER_PDF, pdfOk: !!this.state.pdfReady,
+      hasDoi: !!DOI, doiUrl: 'https://doi.org/' + DOI,
+      posterOk: !!this.state.posterReady, posterMissing,
+      viewerOpen: viewer && !!this.state.posterReady,
+      openViewer: this.openViewer, closeViewer: this.closeViewer,
+      fitMode: !zoomed, zoomed,
+      zoomW: mobile ? '260%' : '160%',
+      zoomHint: zoomed ? 'Tap to fit' : 'Tap to zoom',
+      toggleZoom: () => this.setState(s => ({ zoomed: !s.zoomed })),
+    };
+  }
+}
+</script>
+</body>
+</html>
